@@ -1,10 +1,22 @@
-import { Header, ViewProfile } from "../../components/";
+import { Header, ViewProfile, ListCards } from "../../components/";
+import useGithub from "../../contexts/hooks/github";
+import { Text } from "./styled";
+
 
 const Home = () => {
+  const { githubState } = useGithub();
+
   return (
     <>
       <Header />
-      <ViewProfile />
+      {githubState.hasUser ? (
+        <>
+          <ViewProfile />
+          <ListCards />
+        </>
+      ) : (
+        <Text>Usuário não encontrado!</Text>
+      )}
     </>
   );
 }

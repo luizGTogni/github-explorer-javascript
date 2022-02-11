@@ -14,6 +14,8 @@ export const GlobalCSS = createGlobalStyle`
     --text-shadow: 0 2px 6px rgba(25, 26, 25, 0.2);
 
     --box-shadow: 0 4px 3px rgba(0, 0, 0, 0.1);
+    --box-shadow-tab: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --box-shadow-tab-active: 0 2px 6px rgba(79, 189, 186, 0.4);
 
     --black: #000000;
     --white: #ffffff;

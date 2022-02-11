@@ -6,11 +6,12 @@ interface ButtonPros {
   alt: string;
   size: number;
   value: string;
+  onClick: () => void;
 }
 
-const Button = ({ src, alt, size, value }: ButtonPros) => {
+const Button = ({ src, alt, size, value, onClick }: ButtonPros) => {
   return (
-    <Wrapper>
+    <Wrapper onClick={onClick}>
       <Icon src={src} alt={alt} size={size} />
       <span>{value}</span>
     </Wrapper>
