@@ -3,7 +3,7 @@
 
 # Github Explorer
 
-![Preview-Screens](https://github.com/luizGTogni/ITrainer/blob/main/images/banner.png)
+![Preview-Screens](https://github.com/luizGTogni/github-explorer-javascript/blob/main/images/banner.png)
 
 ## Sobre este projeto
 
@@ -51,7 +51,7 @@ _ou_
 $ npm install
 ```
 
-### Rodando
+### Executando
 
 Com todas as dependências instaladas
 
