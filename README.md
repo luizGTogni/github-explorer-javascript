@@ -1,46 +1,81 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# Github Explorer
 
-### `yarn start`
+![Preview-Screens](https://github.com/luizGTogni/ITrainer/blob/main/images/banner.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Sobre este projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A ideia deste projeto é:
 
-### `yarn test`
+_"Tem como objetivo conhecer novos programadores e visualizar seus codigos feitos e os codigos que ele gostou dando estrelas"._
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Porque?
 
-### `yarn build`
+Este projeto faz parte do meu portfólio, então, se você pudesse me fornecer algum feedback sobre este projeto, código, ou qualquer coisa que você possa relatar que possa me tornar um desenvolvedor melhor!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Email: contato_togni@outlook.com.br
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/luizgustavotogni/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Funcionalidades
 
-### `yarn eject`
+- Você pode pesquisar um usuário do github colocando seu 'username' na barra de pesquisa.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Depois de pesquisar você vai receber os dados dele de informação básica e número de seguidores, número de pesssoa que ele segue e outras informações.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Você pode selecionar se quer ver os repositórios dele ou os repositórios que ele deu estrelas.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Instalando
 
-## Learn More
+**Clonando o Repositorio**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+$ git clone https://github.com/luizGTogni/github-explorer-javascript.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ cd github-explorer-javascript
+```
+
+**Instalando dependências**
+
+```
+$ yarn
+```
+
+_ou_
+
+```
+$ npm install
+```
+
+### Rodando
+
+Com todas as dependências instaladas
+
+```
+$ yarn start
+```
+
+## Construido com
+
+- [React@17](https://facebook.github.io/react/) 
+- [React-Dom@17](https://reactjs.org/docs/react-dom.html)
+- [React-Router-Dom@6](https://v5.reactrouter.com/web/guides/quick-start)
+- [Typescript@4](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/)
+- [Styled-Components@5](https://styled-components.com/)
+
+## Contribuindo
+
+Você pode enviar quantas PRs você quiser, Ficarei feliz em analisá-las e aceitá-las! E se você tiver alguma questão sobre o projeto...
+
+Email-me: contato_togni@outlook.com.br
+
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/luizgustavotogni/).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/luizGTogni/github-explorer-javascript/blob/main/LICENSE) file for details
